@@ -5,8 +5,6 @@
 
 /// <reference types="node" />
 
-import * as leveldown from "leveldown";
-
 export = levelup;
 
 declare var levelup: levelup.LevelUpConstructor;
@@ -83,7 +81,7 @@ interface levelupOptions {
     cacheSize?: number; 
     keyEncoding?: Encoding; 
     valueEncoding?: Encoding; 
-    db?: leveldown.Constructor;
+    db?: any;//Requires leveldown
 }
 
 interface LevelUpConstructor {
