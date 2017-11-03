@@ -1,5 +1,6 @@
 {
   "name": "@types/levelup",
+  "version": "1.0.0",
   "private": true,
   "types": "index.d.ts"
 }
